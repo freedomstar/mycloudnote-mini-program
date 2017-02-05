@@ -1,0 +1,21 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+
+.submit
+{
+  padding: 20rpx;
+}
+
+.hide
+{
+  display: none;
+}
+
+.label
+{
+  margin-left: 20px;
+}
+

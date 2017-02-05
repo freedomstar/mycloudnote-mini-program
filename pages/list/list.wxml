@@ -1,0 +1,4 @@
+<!--logs.wxml-->
+<scroll-view scroll-y="true" wx:for="{{array}}" wx:for-index="idx" wx:for-item="itemName">
+  <navigator open-type="redirect" url="../gg/gg?noteid={{itemName[1]}}"><view class="list">{{itemName[0]}}</view></navigator>
+</scroll-view>

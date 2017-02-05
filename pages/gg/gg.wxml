@@ -1,0 +1,18 @@
+<!--logs.wxml-->
+<form bindsubmit="save">
+<textarea class="hide" name="noteID" value="{{noteID}}" auto-height placeholder="输入记录的内容" maxlength="-1"/>
+<label class="label">题目</label>
+<view class="log-list">
+<input name="title" type="text" value="{{title}}" placeholder="题目"/>
+</view>
+<label class="label">正文</label>
+<view class="log-list">
+<textarea name="context" value="{{context}}" auto-height placeholder="输入记录的内容" maxlength="-1"/>
+
+</view>
+<view class="submit"><button form-type="submit">保存</button></view>
+</form>
+<form bindsubmit="deleteNote">
+<textarea class="hide" name="noteID" value="{{noteID}}" auto-height placeholder="输入记录的内容" maxlength="-1"/>
+<view class="submit" ><button type="warn" form-type="submit">删除</button></view>
+</form>
